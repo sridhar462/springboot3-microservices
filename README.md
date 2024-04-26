@@ -92,6 +92,22 @@ pom.xml
 
 </project>
 ```
+```
+spring:
+  application:
+    name: service-registry
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone : http://${eureka.instance.hostname}:${server.port}/eureka/
+
+```
 
 ![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/fa6963dc-2e34-44dd-92f1-f74c54c3df90)
 
