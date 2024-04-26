@@ -119,15 +119,21 @@ eureka:
 
 application.yaml
 
-![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/6d7e6443-6c34-484c-9988-d0fc8a4913f1)
+
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/ae1b428f-7874-44d3-ab8f-103b491b1ff7)
+
 
 ```
 spring:
   application:
     name: course-service
 
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8761/eureka
 server:
-  port: 8091
+      port: 8091
 ```
 
 **CourseServiceApplication.java**
@@ -163,12 +169,16 @@ public class CourseServiceApplication {
 **application.yaml**
 
 ```
-server:
-  port: 8092
 spring:
   application:
     name: student-service
 
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8761/eureka
+server:
+      port: 8092
 ```
 
 **StudentServiceApplication**
