@@ -101,3 +101,34 @@ pom.xml
 ![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/3430faac-170d-4386-b676-f9f020214e0e)
 
 
+application.yaml
+
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/6d7e6443-6c34-484c-9988-d0fc8a4913f1)
+
+```
+spring:
+  application:
+    name: course-service
+
+server:
+  port: 8091
+```
+
+**CourseServiceApplication.java**
+```
+package com.payil.courseservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class CourseServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CourseServiceApplication.class, args);
+	}
+
+}
+```
