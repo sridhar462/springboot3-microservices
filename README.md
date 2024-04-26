@@ -132,3 +132,6 @@ public class CourseServiceApplication {
 
 }
 ```
+
+
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/5bcdeccb-d612-44e6-8c2a-d974727a1a42)
