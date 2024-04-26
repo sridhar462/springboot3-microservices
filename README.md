@@ -151,3 +151,46 @@ public class CourseServiceApplication {
 
 
 ![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/5bcdeccb-d612-44e6-8c2a-d974727a1a42)
+
+**Student Service**
+
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/1a332a6a-0f9f-49ed-ade3-2ded4af69eb5)
+
+
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/5d816c90-c256-446d-8bf8-4c8ef3183e98)
+
+
+**application.yaml**
+
+```
+server:
+  port: 8092
+spring:
+  application:
+    name: student-service
+
+```
+
+**StudentServiceApplication**
+```
+package com.payil.studentservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class StudentServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentServiceApplication.class, args);
+	}
+
+}
+
+```
+
+![Uploading image.png…]()
+
+
