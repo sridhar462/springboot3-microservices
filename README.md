@@ -191,6 +191,7 @@ public class StudentServiceApplication {
 
 ```
 
-![Uploading image.png…]()
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/edef2918-e2fd-44ba-a36d-976494dbecec)
+
 
 
