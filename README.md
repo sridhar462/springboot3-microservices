@@ -93,3 +93,6 @@ pom.xml
 </project>
 ```
 
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/fa6963dc-2e34-44dd-92f1-f74c54c3df90)
+
+
