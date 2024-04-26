@@ -96,3 +96,8 @@ pom.xml
 ![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/fa6963dc-2e34-44dd-92f1-f74c54c3df90)
 
 
+**Create a Department Service**
+
+![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/3430faac-170d-4386-b676-f9f020214e0e)
+
+
