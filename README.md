@@ -9,6 +9,7 @@ Import the Project in IntelliJ or any other IDE.
 Change the application.properties to application.yaml
 ![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/664b692b-39b8-4407-9dd3-b1ef745e62d2)
 
+```
 package com.payil.serviceregistry;
 
 import org.springframework.boot.SpringApplication;
@@ -24,4 +25,6 @@ public class ServiceRegistryApplication {
 	}
 
 }
+
+```
 
