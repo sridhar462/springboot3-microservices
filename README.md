@@ -1,7 +1,7 @@
 # springboot3-microservices
 
 
-1. Create a Project for Service Registry in [[start](https://start.spring.io/).](https://start.spring.io/)
+1. Create a Project for Service Registry in [(https://start.spring.io/).](https://start.spring.io/)
 
 ![image](https://github.com/sridhar462/springboot3-microservices/assets/8515080/3c416ee2-b55e-4520-aea7-cc9bff97eee7)
 
